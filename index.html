@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dextero.site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #292b2c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #007bff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .main-content {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .main-content h2 {
+      margin-top: 0;
+    }
+    .recent-posts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .post-card {
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      width: 300px;
+      text-align: center;
+    }
+    .post-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #292b2c;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Dextero</h1>
+    <nav>
+      <a href="#recipes">Recipes</a>
+      <a href="#news">News</a>
+      <a href="#adoptions">Pet Adoptions</a>
+      <a href="#categories">Categories</a>
+    </nav>
+  </header>
+  <div class="main-content">
+    <h2>Recent Posts</h2>
+    <div class="recent-posts">
+      <div class="post-card">
+        <img src="https://via.placeholder.com/300" alt="Post 1">
+        <h3>Delicious Recipes</h3>
+        <p>Discover a variety of recipes for any taste and occasion.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="post-card">
+        <img src="https://via.placeholder.com/300" alt="Post 2">
+        <h3>Latest News</h3>
+        <p>Stay up to date with the latest events and news around the world.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="post-card">
+        <img src="https://via.placeholder.com/300" alt="Post 3">
+        <h3>Find a Pet to Adopt</h3>
+        <p>Help animals in need by finding your new best friend.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Dextero.site</p>
+  </footer>
+</body>
+</html>
